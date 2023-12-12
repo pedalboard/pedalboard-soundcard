@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pedalboard-soundcard")(type "KiCad")(uri "${KIPRJMOD}/pedalboard-soundcard.pretty")(options "")(descr ""))
+)
