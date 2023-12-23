@@ -1499,7 +1499,7 @@
     (property "Value" "PCM1863DBT" (at 113.03 92.2274 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "pedalboard-soundcard:PCM1863DBT" (at 113.03 91.186 0)
+    (property "Footprint" "Package_SO:TSSOP-30_4.4x7.8mm_P0.5mm" (at 113.03 91.186 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm1863.pdf" (at 110.49 41.91 0)
