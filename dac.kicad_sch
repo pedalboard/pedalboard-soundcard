@@ -2265,7 +2265,7 @@
     (property "Value" "PCM5242RHBR" (at 125.73 77.9526 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_DFN_QFN:HVQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias" (at 125.73 78.994 0)
+    (property "Footprint" "pedalboard-soundcard:HVQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias" (at 125.73 78.994 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm5242.pdf" (at 85.09 44.45 0)
