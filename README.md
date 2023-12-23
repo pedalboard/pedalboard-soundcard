@@ -6,6 +6,16 @@ Interactive [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fp
 
 Downloadable [Assets](https://pedalboard.github.io/pedalboard-soundcard-site/main/Browse/pedalboard-soundcard-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
+## Fabrication
+
+* [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/latewst/Assembly/pedalboard-hw-ibom.html)
+* [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/FIXME)
+
+## 3D Views
+
+![Top View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_bottom.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top30deg.png)
 
 ## Credits
 
