@@ -4,18 +4,18 @@
 
 Interactive [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fpedalboard%2Fpedalboard-soundcard%2Ftree%2Fmain) viewer.
 
-Downloadable [Assets](https://pedalboard.github.io/pedalboard-soundcard-site/main/Browse/pedalboard-soundcard-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
+Downloadable [Assets](https://pedalboard.github.io/pedalboard-soundcard-site/latest/Browse/pedalboard-soundcard-navigate.html) are generated with [KiBot](https://github.com/INTI-CMNB/KiBot)
 
 ## Fabrication
 
-* [Generated iBOM](https://pedalboard.github.io/pedalboard-soundcard-site/latewst/Assembly/pedalboard-hw-ibom.html)
+* [Generated iBOM](https://pedalboard.github.io/pedalboard-soundcard-site/latest/Assembly/pedalboard-hw-ibom.html)
 * [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/FIXME)
 
 ## 3D Views
 
-![Top View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-3D_top.png)
-![Bottom View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-3D_bottom.png)
-![30 deg View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-3D_top30deg.png)
+![Top View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-soundcard-3D_top.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-soundcard_bottom.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-soundcard_top30deg.png)
 
 ## Credits
 
