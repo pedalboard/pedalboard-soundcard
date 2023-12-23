@@ -8,14 +8,14 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-soundcard-site/mai
 
 ## Fabrication
 
-* [Generated iBOM](https://pedalboard.github.io/pedalboard-hw-site/latewst/Assembly/pedalboard-hw-ibom.html)
+* [Generated iBOM](https://pedalboard.github.io/pedalboard-soundcard-site/latewst/Assembly/pedalboard-hw-ibom.html)
 * [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/FIXME)
 
 ## 3D Views
 
-![Top View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top.png)
-![Bottom View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_bottom.png)
-![30 deg View](https://pedalboard.github.io/pedalboard-hw-site/latest/3D/pedalboard-hw-3D_top30deg.png)
+![Top View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-3D_top.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-3D_bottom.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-3D_top30deg.png)
 
 ## Credits
 
