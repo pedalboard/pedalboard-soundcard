@@ -14,8 +14,8 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-soundcard-site/lat
 ## 3D Views
 
 ![Top View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-soundcard-3D_top.png)
-![Bottom View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-soundcard_bottom.png)
-![30 deg View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-hw-soundcard_top30deg.png)
+![Bottom View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-soundcard-3D.png)
+![30 deg View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-soundcard-3D.png)
 
 ## Credits
 
