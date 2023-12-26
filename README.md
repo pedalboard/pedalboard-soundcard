@@ -8,7 +8,7 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-soundcard-site/lat
 
 ## Fabrication
 
-* [Generated iBOM](https://pedalboard.github.io/pedalboard-soundcard-site/latest/Assembly/pedalboard-hw-ibom.html)
+* [Generated iBOM](https://pedalboard.github.io/pedalboard-soundcard-site/latest/Assembly/pedalboard-soundcard-ibom.html)
 * [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/FIXME)
 
 ## 3D Views
