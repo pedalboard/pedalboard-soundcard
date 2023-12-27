@@ -2161,7 +2161,7 @@
     (property "Value" "Conn_02x03_Odd_Even" (at 240.03 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (at 238.76 137.16 0)
+    (property "Footprint" "pedalboard-soundcard:PinSocket_2x03_P2.54mm_Vertical" (at 238.76 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 238.76 137.16 0)
