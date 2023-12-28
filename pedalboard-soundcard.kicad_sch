@@ -2721,7 +2721,7 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2222/00587.pdf" (at 29.21 26.67 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Supplier" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/2222/6238005" (at 29.21 26.67 0)
+    (property "Supplier" "https://www.digikey.ch/en/products/detail/adafruit-industries-llc/2222/6238005" (at 29.21 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cba771eb-22b1-4579-b7e0-1e602b0d5a03))

@@ -9,7 +9,7 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-soundcard-site/lat
 ## Fabrication
 
 * [Generated iBOM](https://pedalboard.github.io/pedalboard-soundcard-site/latest/Assembly/pedalboard-soundcard-ibom.html)
-* [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/FIXME)
+* [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/OT2O5ZLS9K)
 
 ## 3D Views
 
