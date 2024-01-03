@@ -17,7 +17,7 @@ Downloadable [Assets](https://pedalboard.github.io/pedalboard-soundcard-site/lat
 ![Bottom View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-soundcard-3D_blender_bottom.png)
 ![30 deg View](https://pedalboard.github.io/pedalboard-soundcard-site/latest/3D/pedalboard-soundcard-3D_blender_30deg.png)
 
-## Credits
+## Acknowledgements
 
 The project is based on Dave Vandenbout's [RPi Hat Template](https://github.com/devbisme/RPi_Hat_Template)
 
