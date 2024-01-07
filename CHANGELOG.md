@@ -2,6 +2,7 @@
 
 ## TODO
 - Mic bias support
+- Git commit hash
 
 ## [1.0.0-RC1] - First release - TBD
 
