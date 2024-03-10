@@ -1,0 +1,18 @@
+{
+    "layout": {
+        "type": "grid",
+        "rows": 2,
+        "cols": 2,
+        "space": "3mm"
+    },
+    "tabs": {
+        "type": "fixed",
+        "width": "5mm"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.5mm",
+        "spacing": "1mm",
+        "offset": "0.2mm"
+    }
+}
