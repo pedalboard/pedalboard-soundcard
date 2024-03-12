@@ -13,5 +13,19 @@
         "drill": "0.5mm",
         "spacing": "1mm",
         "offset": "0.2mm"
+    },
+    "framing": {
+        "type": "railslr"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "2.5mm",
+        "voffset": "5mm"
     }
+
 }
