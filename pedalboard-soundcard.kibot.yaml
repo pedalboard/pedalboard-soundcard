@@ -1204,3 +1204,10 @@ outputs:
   comment: PCB in VRML format
   type: vrml
   dir: 3D
+- name: panel
+  comment: panelise
+  type: panelise into a grid 2x1
+  dir: panel
+  options:
+    - config: panel.json
+
