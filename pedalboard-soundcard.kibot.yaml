@@ -1205,8 +1205,8 @@ outputs:
   type: vrml
   dir: 3D
 - name: panel
-  comment: panelise
-  type: panelise into a grid 2x1
+  comment: panelize into grid 2x1
+  type: panelize
   dir: panel
   options:
     - config: panel.json
