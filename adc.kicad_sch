@@ -1353,9 +1353,6 @@
     (pin "2" (uuid f45d15ed-324c-499a-a034-6502f7194552))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C2") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C2") (unit 1)
         )
@@ -1390,9 +1387,6 @@
     (pin "2" (uuid f004930f-30fb-4d2f-8904-f2aabeae7272))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C3") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C3") (unit 1)
         )
@@ -1427,9 +1421,6 @@
     (pin "2" (uuid 69232368-92ec-46ae-929e-7ffa078496a8))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R12") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R12") (unit 1)
         )
@@ -1464,9 +1455,6 @@
     (pin "2" (uuid 3c49f5a7-087e-4d13-ae66-3bc52a4b5588))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C17") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C17") (unit 1)
         )
@@ -1501,9 +1489,6 @@
     (pin "2" (uuid 60454cd1-3c0a-407f-96b0-adc880774b13))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C18") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C18") (unit 1)
         )
@@ -1563,9 +1548,6 @@
     (pin "2" (uuid bb086c89-74ff-4dd4-9c62-ac4941fd6bfa))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R9") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R9") (unit 1)
         )
@@ -1675,9 +1657,6 @@
     (pin "2" (uuid 67a09e09-cb59-4c1e-a3b8-0a182307ec8c))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R11") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R11") (unit 1)
         )
@@ -1737,9 +1716,6 @@
     (pin "2" (uuid 4e635f2f-fca8-4060-a06b-03b59424b483))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R14") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R14") (unit 1)
         )
@@ -1774,9 +1750,6 @@
     (pin "2" (uuid c4307f24-bd44-4e0b-967b-6941a031d555))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C13") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C13") (unit 1)
         )
@@ -1811,9 +1784,6 @@
     (pin "2" (uuid 617211e2-1986-46c8-8452-eb02b5a6147f))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C15") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C15") (unit 1)
         )
@@ -1876,9 +1846,6 @@
     (pin "9" (uuid 408790cb-278d-4676-a035-134d65d3dad8))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "U4") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "U4") (unit 1)
         )
@@ -1913,9 +1880,6 @@
     (pin "2" (uuid ddb8a0b5-c551-422f-a319-3a7cbf420d60))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R4") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R4") (unit 1)
         )
@@ -1950,9 +1914,6 @@
     (pin "2" (uuid f480357b-becf-4d32-b9d8-c7a82168bf0b))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R13") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R13") (unit 1)
         )
@@ -2012,9 +1973,6 @@
     (pin "2" (uuid e2f90553-1b58-41c6-aa60-47c82f0d4962))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R8") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R8") (unit 1)
         )
@@ -2049,9 +2007,6 @@
     (pin "2" (uuid 749c598b-3b40-4a33-848b-f8b4b2523ef6))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C11") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C11") (unit 1)
         )
@@ -2067,7 +2022,7 @@
   (symbol (lib_id "power:GND") (at 241.3 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 619fbe3c-47ac-4488-a631-0bc0b3ce3adc)
-    (property "Reference" "#PWR010" (at 241.3 59.69 0)
+    (property "Reference" "#PWR07" (at 241.3 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 53.34 0)
@@ -2082,9 +2037,6 @@
     (pin "1" (uuid f081ce1a-f428-494a-9468-a93a008acec1))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "#PWR07") (unit 1)
         )
@@ -2140,9 +2092,6 @@
     (pin "1" (uuid 997999b9-90c4-42d1-85b5-f34911d72cbe))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "#PWR05") (unit 1)
         )
@@ -2158,7 +2107,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3_SwitchTR") (at 234.95 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 7a9bed40-0575-402d-aaab-bdae3c5830ee)
-    (property "Reference" "J5" (at 233.045 133.35 0)
+    (property "Reference" "J4" (at 233.045 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Audio_Jack" (at 233.045 135.89 0)
@@ -2180,9 +2129,6 @@
     (pin "T" (uuid eddf59e5-12fb-4d05-af7d-c5135521af84))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/c0100554-f979-4e8d-b08c-e48cc1e12bdc"
-          (reference "J5") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "J4") (unit 1)
         )
@@ -2212,9 +2158,6 @@
     (pin "2" (uuid cf29c67e-56e3-440b-85b3-a9c13e9443ed))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R2") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R2") (unit 1)
         )
@@ -2245,9 +2188,6 @@
     (pin "1" (uuid 0f16b581-b29a-4599-949b-d5bda31b8727))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "#PWR02") (unit 1)
         )
@@ -2307,9 +2247,6 @@
     (pin "2" (uuid 5021be84-4b6e-41cf-a5bf-6ee7ec1a0eb6))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R3") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R3") (unit 1)
         )
@@ -2344,9 +2281,6 @@
     (pin "2" (uuid f01bd3a4-4e31-4713-ac2d-100dd35234a4))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C14") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C14") (unit 1)
         )
@@ -2362,7 +2296,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 238.76 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1666628-32df-4688-a0d7-d4f3e3e98799)
-    (property "Reference" "J2" (at 240.03 114.3 0)
+    (property "Reference" "J3" (at 240.03 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x03_Odd_Even" (at 240.03 116.84 0)
@@ -2385,9 +2319,6 @@
     (pin "6" (uuid 8e604112-1c51-4c06-973d-60bc8d07b23d))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/c0100554-f979-4e8d-b08c-e48cc1e12bdc"
-          (reference "J2") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "J3") (unit 1)
         )
@@ -2417,9 +2348,6 @@
     (pin "2" (uuid 5281cf32-69c7-47b6-a1f4-1ad45c1dda64))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C19") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C19") (unit 1)
         )
@@ -2454,9 +2382,6 @@
     (pin "2" (uuid cd1df6e5-6680-4227-9b94-0341d7ea4673))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "D1") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "D1") (unit 1)
         )
@@ -2487,9 +2412,6 @@
     (pin "1" (uuid fe72b17b-5d6d-4215-ada7-091d33a2db08))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "#FLG03") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "#FLG03") (unit 1)
         )
@@ -2524,9 +2446,6 @@
     (pin "2" (uuid daa7dff4-2091-44e2-9655-17a68db2dbba))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C16") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C16") (unit 1)
         )
@@ -2586,9 +2505,6 @@
     (pin "2" (uuid d9f31be1-7f07-4834-9619-2ecdb8315a28))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C7") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C7") (unit 1)
         )
@@ -2623,9 +2539,6 @@
     (pin "2" (uuid d4ed6f01-5df4-4d02-8ac7-00b11a885472))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "R1") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "R1") (unit 1)
         )
@@ -2660,9 +2573,6 @@
     (pin "2" (uuid 9d8590ef-00a8-469a-ae6d-11db860c2028))
     (instances
       (project "pedalboard-soundcard"
-        (path "/257597c6-fbef-4478-b0f4-968f2d6f1866"
-          (reference "C4") (unit 1)
-        )
         (path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
           (reference "C4") (unit 1)
         )
