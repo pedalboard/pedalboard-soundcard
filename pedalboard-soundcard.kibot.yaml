@@ -1209,5 +1209,6 @@ outputs:
   type: panelize
   dir: panel
   options:
-    configs: panel.json
+    configs: 
+      - panel.json
 
