@@ -26,6 +26,11 @@
         "type": "4fid",
         "hoffset": "2.5mm",
         "voffset": "5mm"
+    },
+    "post": {
+        "copperfill": true,
+        "dimensions": true,
+        "millradius": "0.5mm"
     }
 
 }
