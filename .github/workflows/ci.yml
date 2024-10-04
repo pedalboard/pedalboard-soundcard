@@ -34,7 +34,7 @@ jobs:
         run: |
           kibot -e pedalboard-soundcard.kicad_sch -d generated
       - name: Retrieve results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: generated_outputs
           path: generated
