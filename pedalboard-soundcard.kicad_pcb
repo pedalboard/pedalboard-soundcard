@@ -4131,7 +4131,7 @@
 		(path "/8bc866ec-c788-4578-af41-fd5ac61d9cd0")
 		(sheetname "Root")
 		(sheetfile "pedalboard-soundcard.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -26308,14 +26308,6 @@
 		(layer "F.Cu")
 		(net 61)
 		(uuid "8b250294-2cdb-4b5d-8507-7ff016f8df86")
-	)
-	(segment
-		(start 73.45 88.2375)
-		(end 73.45 88.1275)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 61)
-		(uuid "b6fcfd72-f002-4d93-8fc5-5e70785453f5")
 	)
 	(segment
 		(start 68.95 83.75)
