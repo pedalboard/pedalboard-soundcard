@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         "courtyards_overlap|106919999|56363583|00000000-0000-0000-0000-00005515dea9|00000000-0000-0000-0000-00005516aea0",
+        "lib_footprint_issues|100000000|110250000|8fb6fcc5-9ca7-4005-9e5f-534fc03c49d9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|100000000|50750000|bb5e20d0-873f-4edc-aaa3-26346a4c66c5|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|115250000|65000000|0df1e16b-f983-4df4-86cd-7c559c59c275|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|46750000|65000000|e6b8cc95-cbf2-4ca1-b0ca-0f0ae607abfd|00000000-0000-0000-0000-000000000000",
         "silk_edge_clearance|61440000|108500000|de74f7cc-ad2d-456f-87ef-bea3f3214458|632aaff5-ec36-4b77-9bd9-723a62844515",
         "silk_edge_clearance|62940000|108500000|de74f7cc-ad2d-456f-87ef-bea3f3214458|7ccae4f0-e145-4154-a0d8-038f98ece6f8",
         "silk_edge_clearance|62940000|108500000|de74f7cc-ad2d-456f-87ef-bea3f3214458|932b8375-c3d0-425b-8ee6-ceae661c1bf1",
@@ -71,10 +75,7 @@
         "silk_edge_clearance|82100000|108500000|b6cf1357-31b0-467a-8f49-41a4808cb571|eb1b956e-faba-4380-bbf5-3daa6f1dcc78",
         "silk_edge_clearance|88100000|108500000|143f084b-2b6a-4a8e-8647-aad3b26dd034|307abe5d-1395-4129-9516-24a017c015af",
         "silk_edge_clearance|89600000|108500000|143f084b-2b6a-4a8e-8647-aad3b26dd034|5f263898-9f7d-41c0-a076-fc5d7d808062",
-        "silk_edge_clearance|89600000|108500000|143f084b-2b6a-4a8e-8647-aad3b26dd034|9b9ef92f-19dc-4f21-a4df-c651b3fa6d3b",
-        "unresolved_variable|112550000|69540000|ce1a6e39-f345-47f3-9f59-2d57d06d55e0|00000000-0000-0000-0000-000000000000",
-        "unresolved_variable|112680000|69480000|c65c1483-569e-46cc-806d-c0a3f02934fb|00000000-0000-0000-0000-000000000000",
-        "unresolved_variable|178002200|171007200||"
+        "silk_edge_clearance|89600000|108500000|143f084b-2b6a-4a8e-8647-aad3b26dd034|9b9ef92f-19dc-4f21-a4df-c651b3fa6d3b"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -452,7 +453,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",

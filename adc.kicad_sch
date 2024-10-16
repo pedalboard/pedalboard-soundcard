@@ -2079,16 +2079,34 @@
 		(uuid "30dc1db1-8d4d-4a63-ac74-9f54c3cc2dcb")
 	)
 	(junction
+		(at 172.72 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38f48c44-a5f7-4185-8ea3-db7b1c18d737")
+	)
+	(junction
 		(at 228.6 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c91d1f2-e63e-4462-bd03-b4a0f4f6781a")
 	)
 	(junction
+		(at 142.24 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "497bb60d-3967-486e-a998-9615181e56be")
+	)
+	(junction
 		(at 241.3 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a28f916-3ccc-4f1e-b39b-37b162686cd5")
+	)
+	(junction
+		(at 189.23 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c174eb5-c60b-487c-a3de-93ec847026a9")
 	)
 	(junction
 		(at 165.1 139.7)
@@ -2169,6 +2187,12 @@
 		(uuid "af898f28-7109-464e-850a-8b2470dafd8e")
 	)
 	(junction
+		(at 158.75 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b60cab93-932d-4e50-a025-a5d1f204967e")
+	)
+	(junction
 		(at 172.72 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2234,7 +2258,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 85.09) (xy 172.72 110.49)
+			(xy 184.15 104.14) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016c14c5-f0ef-4685-a8f0-50ecbb629576")
+	)
+	(wire
+		(pts
+			(xy 172.72 85.09) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2251,6 +2285,16 @@
 			(type default)
 		)
 		(uuid "1103d4c0-9116-4680-a463-c3399ec8715c")
+	)
+	(wire
+		(pts
+			(xy 142.24 104.14) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d96794-f78f-4fac-a303-8fa058d28b04")
 	)
 	(wire
 		(pts
@@ -2464,6 +2508,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 104.14) (xy 189.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477d72c8-dca3-456c-ae2a-c6bb854a678d")
+	)
+	(wire
+		(pts
 			(xy 182.88 74.93) (xy 185.42 74.93)
 		)
 		(stroke
@@ -2514,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 110.49) (xy 189.23 106.68)
+			(xy 189.23 110.49) (xy 189.23 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 106.68) (xy 175.26 80.01)
+			(xy 175.26 96.52) (xy 175.26 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2594,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 110.49) (xy 142.24 106.68)
+			(xy 142.24 110.49) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2641,6 +2695,16 @@
 			(type default)
 		)
 		(uuid "69a6835c-9d94-4e4e-8c03-5b0bd68a8465")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.14) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0fce94-44ae-43f2-a9ea-c0b26654b3cf")
 	)
 	(wire
 		(pts
@@ -2874,7 +2938,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 82.55) (xy 156.21 106.68)
+			(xy 156.21 82.55) (xy 156.21 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2914,6 +2978,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 104.14) (xy 158.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7f3761-c68c-4aec-aa85-664d8d43cd43")
+	)
+	(wire
+		(pts
 			(xy 172.72 118.11) (xy 172.72 119.38)
 		)
 		(stroke
@@ -2934,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 106.68) (xy 156.21 106.68)
+			(xy 142.24 96.52) (xy 156.21 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3064,6 +3138,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 104.14) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba457db4-9015-4c65-9553-49a0b4722d9c")
+	)
+	(wire
+		(pts
 			(xy 187.96 53.34) (xy 187.96 54.61)
 		)
 		(stroke
@@ -3154,7 +3238,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 106.68) (xy 175.26 106.68)
+			(xy 189.23 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3171,6 +3255,26 @@
 			(type default)
 		)
 		(uuid "e546b800-df40-448a-8a37-5ac1f3faa775")
+	)
+	(wire
+		(pts
+			(xy 153.67 104.14) (xy 158.75 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5842fb2-9d9a-49fc-ba72-2ed490d4348a")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.14) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7490db3-d5da-47c5-ad94-aa272071a30f")
 	)
 	(wire
 		(pts
@@ -3244,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 77.47) (xy 158.75 110.49)
+			(xy 158.75 77.47) (xy 158.75 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3935,6 +4039,84 @@
 			(project "zynthiandac"
 				(path "/684ba6b6-4674-4c20-b126-c7deb678f8f5"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d97c248-f7e1-4dc6-9690-9f6e71cacb97")
+		(property "Reference" "C33"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 183.134 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 176.53 105.1052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Film Capacitor"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c0bf204-5c20-4347-a6b3-43f0ef9d3f87")
+		)
+		(pin "2"
+			(uuid "be197c5f-9b74-4994-8b0f-a6519c2cc344")
+		)
+		(instances
+			(project "pedalboard-soundcard"
+				(path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5158,6 +5340,84 @@
 			(project "zynthiandac"
 				(path "/684ba6b6-4674-4c20-b126-c7deb678f8f5"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58cbd49f-ebe1-47f5-926f-faa53d96d3f2")
+		(property "Reference" "C34"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 152.654 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 146.05 105.1052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Film Capacitor"
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.digikey.ch/de/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661"
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e952be7-a70f-4977-b0fa-b11dff6d0361")
+		)
+		(pin "2"
+			(uuid "7bc67a6f-a9f1-49a2-98b9-353f44214398")
+		)
+		(instances
+			(project "pedalboard-soundcard"
+				(path "/257597c6-fbef-4478-b0f4-968f2d6f1866/7494c0d8-b421-47d6-807b-2365bb2b2e5f"
+					(reference "C34")
 					(unit 1)
 				)
 			)

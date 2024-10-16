@@ -969,23 +969,20 @@
 				)
 			)
 		)
-		(symbol "TLV71333PDBV-Regulator_Linear_1"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:NCP163ASN330T1G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 0 8.6868 0)
+			(property "Reference" "U"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "NCP163"
-				(at 0 6.3754 0)
+			(property "Value" "NCP163ASN330T1G"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -993,17 +990,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP163-D.PDF"
-				(at 0 1.27 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1011,7 +998,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "250mA low-noise LDO, 2.2V-5.5V input, 3.3V output, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1020,7 +1016,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier" "https://www.digikey.ch/de/products/detail/onsemi/NCP163ASN330T1G/9694661"
+			(property "ki_keywords" "LDO regulator voltage"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1038,24 +1034,24 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV71333PDBV-Regulator_Linear_1_0_1"
+			(symbol "NCP163ASN330T1G_0_1"
 				(rectangle
-					(start -5.08 4.445)
+					(start -5.08 5.08)
 					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
 			)
-			(symbol "TLV71333PDBV-Regulator_Linear_1_1_1"
+			(symbol "NCP163ASN330T1G_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "IN"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1089,7 +1085,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 0 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -1107,7 +1103,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 5.08 0 180)
+					(at 5.08 -2.54 180)
 					(length 2.54) hide
 					(name "NC"
 						(effects
@@ -1127,7 +1123,7 @@
 				(pin power_out line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "OUT"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2601,173 +2597,6 @@
 				)
 			)
 		)
-		(symbol "zynthiandac-rescue:TLV71333PDBV-Regulator_Linear"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV71333PDBV-Regulator_Linear"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV71333PDBV-Regulator_Linear_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV71333PDBV-Regulator_Linear_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 187.96 45.72)
@@ -3207,6 +3036,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 58.42) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e2acd6-5abb-4d43-b3e0-a1313cceb1bc")
+	)
+	(wire
+		(pts
 			(xy 163.83 71.12) (xy 163.83 67.31)
 		)
 		(stroke
@@ -3474,6 +3313,16 @@
 			(type default)
 		)
 		(uuid "75cba780-3581-455c-8e2e-b02735545ba3")
+	)
+	(wire
+		(pts
+			(xy 190.5 58.42) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7783e94f-c3b7-4ea2-9397-aae04aa8b661")
 	)
 	(wire
 		(pts
@@ -3974,6 +3823,16 @@
 			(type default)
 		)
 		(uuid "f06e1c56-58c8-4da7-94d3-70efd1807454")
+	)
+	(wire
+		(pts
+			(xy 237.49 58.42) (xy 237.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e0644a-25e2-4bce-b8de-13bd7956a4f4")
 	)
 	(wire
 		(pts
@@ -4656,7 +4515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "zynthiandac-rescue:TLV71333PDBV-Regulator_Linear")
+		(lib_id "Regulator_Linear:NCP163ASN330T1G")
 		(at 245.11 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4681,17 +4540,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 245.11 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP163-D.PDF"
-			(at 245.11 57.15 0)
+			(at 245.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4548,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250mA low-noise LDO, 2.2V-5.5V input, 3.3V output, SOT-23-5"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -4748,7 +4606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "zynthiandac-rescue:TLV71333PDBV-Regulator_Linear")
+		(lib_id "Regulator_Linear:NCP163ASN330T1G")
 		(at 198.12 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4773,17 +4631,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 198.12 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP163-D.PDF"
-			(at 198.12 57.15 0)
+			(at 198.12 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4639,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf"
+			(at 198.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250mA low-noise LDO, 2.2V-5.5V input, 3.3V output, SOT-23-5"
 			(at 198.12 58.42 0)
 			(effects
 				(font
@@ -6677,8 +6534,7 @@
 		)
 	)
 	(symbol
-		(lib_name "TLV71333PDBV-Regulator_Linear_1")
-		(lib_id "zynthiandac-rescue:TLV71333PDBV-Regulator_Linear")
+		(lib_id "Regulator_Linear:NCP163ASN330T1G")
 		(at 154.94 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6703,17 +6559,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 154.94 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP163-D.PDF"
-			(at 154.94 57.15 0)
+			(at 154.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6567,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf"
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250mA low-noise LDO, 2.2V-5.5V input, 3.3V output, SOT-23-5"
 			(at 154.94 58.42 0)
 			(effects
 				(font
