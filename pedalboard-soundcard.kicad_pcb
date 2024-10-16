@@ -8526,7 +8526,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 94 "unconnected-(J4-PadRN)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3e2773a9-5c52-4949-b7fe-4b8052125d8e")
 		)
 		(pad "S" thru_hole oval
@@ -8556,7 +8556,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 95 "unconnected-(J4-PadTN)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "35dec61d-a8b7-44f2-8697-086749badac9")
 		)
 		(model "${KICAD7_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.wrl"
@@ -16517,7 +16517,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 92 "unconnected-(J5-PadRN)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "d7f13d6c-5b9f-4c84-ba7d-7ad6f912ebd7")
 		)
 		(pad "S" thru_hole oval
@@ -16547,7 +16547,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 93 "unconnected-(J5-PadTN)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "6ed51587-a200-4c12-8853-34c173c7bdc5")
 		)
 		(model "${KICAD7_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.wrl"
