@@ -2193,6 +2193,10 @@
 		(uuid "e1842846-c416-4aae-a0c7-ea762be87e24")
 	)
 	(no_connect
+		(at 240.03 144.78)
+		(uuid "02df9b4d-25e2-4888-bad3-a0ed4a570b97")
+	)
+	(no_connect
 		(at 72.39 77.47)
 		(uuid "0bbf07d2-c8f5-49e4-8cdc-0f889311d771")
 	)
@@ -2223,6 +2227,10 @@
 	(no_connect
 		(at 72.39 57.15)
 		(uuid "c28ae148-e67b-41ae-a15b-367ea9a9e881")
+	)
+	(no_connect
+		(at 240.03 149.86)
+		(uuid "cc0abc2e-fd87-43de-b480-98d123629828")
 	)
 	(wire
 		(pts

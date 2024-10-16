@@ -2428,18 +2428,6 @@
 		(uuid "4e142cd3-b9c9-4915-b377-33e528c1372c")
 	)
 	(junction
-		(at 71.12 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fd9d97e-8965-4a8a-94f3-e8e527688954")
-	)
-	(junction
-		(at 62.23 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5248fd58-d0fd-4ea2-844b-5cac7ec9a926")
-	)
-	(junction
 		(at 77.47 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2468,12 +2456,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "996ad8ee-78c1-4633-ad42-77b5b1afd796")
-	)
-	(junction
-		(at 53.34 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9adc450e-17fa-4ae0-a24c-86ea2976b98f")
 	)
 	(junction
 		(at 96.52 128.27)
@@ -2524,10 +2506,30 @@
 		(uuid "d2cd1dc0-0303-4b61-ad1f-593850ac2324")
 	)
 	(junction
+		(at 49.53 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d33505c5-33d0-4343-9ca3-fe9b777a9f19")
+	)
+	(junction
 		(at 148.59 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d83cca7e-83c5-4c09-8e7c-50544606ec79")
+	)
+	(junction
+		(at 74.93 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcec0575-306e-4a1b-b4d5-70b8c24bbe0d")
+	)
+	(no_connect
+		(at 135.89 177.8)
+		(uuid "89790ca7-2800-4511-a352-12ee0829ae8a")
+	)
+	(no_connect
+		(at 135.89 182.88)
+		(uuid "d7e4ff9c-80e8-443d-b980-d5cf03a3e88e")
 	)
 	(no_connect
 		(at 148.59 120.65)
@@ -2562,16 +2564,6 @@
 			(type default)
 		)
 		(uuid "06996436-05cd-4d67-86f6-ba05dfb824cf")
-	)
-	(wire
-		(pts
-			(xy 53.34 161.29) (xy 62.23 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c4987f-7a8b-42aa-b253-a2078546a223")
 	)
 	(wire
 		(pts
@@ -2642,6 +2634,16 @@
 			(type default)
 		)
 		(uuid "121fa7c8-c26f-48c4-ab56-9a4a432c95cd")
+	)
+	(wire
+		(pts
+			(xy 49.53 161.29) (xy 53.34 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146ee393-6a15-4d46-81dd-1cb53aa2c5fe")
 	)
 	(wire
 		(pts
@@ -3035,7 +3037,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 161.29) (xy 77.47 161.29)
+			(xy 71.12 161.29) (xy 74.93 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3085,7 +3087,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 161.29) (xy 53.34 161.29)
+			(xy 46.99 161.29) (xy 49.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3102,16 +3104,6 @@
 			(type default)
 		)
 		(uuid "64cb0a44-0792-4093-9403-0434d3f947b9")
-	)
-	(wire
-		(pts
-			(xy 62.23 161.29) (xy 71.12 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a47b866-b929-4b18-95f3-3cedad84b253")
 	)
 	(wire
 		(pts
@@ -3245,6 +3237,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 161.29) (xy 77.47 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2de760-02cf-4398-ab03-0a64d623dfa9")
+	)
+	(wire
+		(pts
 			(xy 189.23 105.41) (xy 189.23 81.28)
 		)
 		(stroke
@@ -3375,6 +3377,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 161.29) (xy 74.93 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd3fbfd-e175-404a-9b13-4b13dccd69ca")
+	)
+	(wire
+		(pts
 			(xy 60.96 100.33) (xy 77.47 100.33)
 		)
 		(stroke
@@ -3445,7 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 161.29) (xy 62.23 165.1)
+			(xy 49.53 161.29) (xy 49.53 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3745,7 +3757,7 @@
 	)
 	(text "Ground Lift\nfor differential output"
 		(exclude_from_sim no)
-		(at 46.99 169.418 0)
+		(at 29.464 171.196 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4152,6 +4164,71 @@
 			(project "zynthiandac"
 				(path "/684ba6b6-4674-4c20-b126-c7deb678f8f5"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08a5815d-f733-487f-95bb-df5d867f3963")
+		(property "Reference" "#PWR043"
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 75.057 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8f77d2e-18c8-41f3-9259-76d2c587a5cd")
+		)
+		(instances
+			(project "pedalboard-soundcard"
+				(path "/257597c6-fbef-4478-b0f4-968f2d6f1866/c0100554-f979-4e8d-b08c-e48cc1e12bdc"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5147,7 +5224,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 62.23 168.91 90)
+		(at 49.53 168.91 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5156,7 +5233,7 @@
 		(fields_autoplaced yes)
 		(uuid "57e6b998-9b8d-4942-8af3-cdebfb345906")
 		(property "Reference" "JP1"
-			(at 64.77 167.6399 90)
+			(at 52.07 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5242,7 @@
 			)
 		)
 		(property "Value" "SJP"
-			(at 64.77 170.1799 90)
+			(at 52.07 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +5251,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 62.23 168.91 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 168.91 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5269,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 62.23 168.91 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +5993,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 172.72 0)
+		(at 49.53 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5924,7 +6001,7 @@
 		(dnp no)
 		(uuid "833c8a25-c23a-4e1e-8c41-45ec7f669d6a")
 		(property "Reference" "#PWR08"
-			(at 62.23 179.07 0)
+			(at 49.53 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +6010,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.357 177.1142 0)
+			(at 49.657 177.1142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +6018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 172.72 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +6027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 172.72 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +6036,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 172.72 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,6 +6564,76 @@
 			(project "zynthiandac"
 				(path "/684ba6b6-4674-4c20-b126-c7deb678f8f5"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 74.93 168.91 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e146738-96df-4e02-95fc-5763a221ba07")
+		(property "Reference" "JP2"
+			(at 77.47 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SJP"
+			(at 77.47 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "add51a17-a306-4cc6-aed2-108f4abd0c4e")
+		)
+		(pin "2"
+			(uuid "6108f250-e91c-4223-8521-48175cc33d4c")
+		)
+		(instances
+			(project "pedalboard-soundcard"
+				(path "/257597c6-fbef-4478-b0f4-968f2d6f1866/c0100554-f979-4e8d-b08c-e48cc1e12bdc"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
