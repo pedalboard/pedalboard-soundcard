@@ -4080,7 +4080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1C103JX5"
 			(at 180.34 104.14 0)
 			(effects
 				(font
@@ -4098,7 +4098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661"
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/panasonic-electronic-components/ECH-U1C103JX5/353645"
 			(at 180.34 104.14 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1C103JX5"
 			(at 149.86 104.14 0)
 			(effects
 				(font
@@ -5399,7 +5399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661"
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/panasonic-electronic-components/ECH-U1C103JX5/353645"
 			(at 149.86 104.14 0)
 			(effects
 				(font
