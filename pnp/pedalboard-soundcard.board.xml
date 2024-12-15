@@ -138,11 +138,11 @@
          <location units="Millimeters" x="63.99" y="-86.38" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="D1" side="Top" part-id="LED_0805_2012Metric-red" type="Placement" enabled="true">
+      <placement version="1.4" id="D1" side="Top" part-id="LED_0805_2012Metric-LED_R" type="Placement" enabled="true">
          <location units="Millimeters" x="58.505" y="-79.75" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="D2" side="Top" part-id="LED_0805_2012Metric-red" type="Placement" enabled="true">
+      <placement version="1.4" id="D2" side="Top" part-id="LED_0805_2012Metric-LED_R" type="Placement" enabled="true">
          <location units="Millimeters" x="94.51" y="-84.3" z="0.0" rotation="-90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
