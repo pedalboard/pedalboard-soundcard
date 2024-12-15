@@ -4825,7 +4825,7 @@
 				)
 			)
 		)
-		(property "Value" "red"
+		(property "Value" "LED_R"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "887f479f-12c8-426f-a5d1-f29e184d7e70")
@@ -11707,7 +11707,7 @@
 				)
 			)
 		)
-		(property "Value" "red"
+		(property "Value" "LED_R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "73b499c9-9634-400d-bb56-1673022f2d14")

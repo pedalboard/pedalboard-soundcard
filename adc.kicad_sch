@@ -6378,7 +6378,7 @@
 				)
 			)
 		)
-		(property "Value" "red"
+		(property "Value" "LED_R"
 			(at 43.18 58.42 0)
 			(effects
 				(font
