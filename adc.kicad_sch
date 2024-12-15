@@ -3642,7 +3642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF16V"
+		(property "Value" "10u"
 			(at 161.671 124.333 0)
 			(effects
 				(font
@@ -3726,7 +3726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF16V"
+		(property "Value" "10u"
 			(at 145.161 124.333 0)
 			(effects
 				(font
@@ -3894,7 +3894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF16V"
+		(property "Value" "1u"
 			(at 241.3 48.26 0)
 			(effects
 				(font
@@ -3978,7 +3978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF16V"
+		(property "Value" "1u"
 			(at 229.87 74.93 0)
 			(effects
 				(font
@@ -4062,7 +4062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n_film"
 			(at 183.134 97.79 0)
 			(effects
 				(font
@@ -4717,7 +4717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF16V"
+		(property "Value" "1u"
 			(at 209.55 85.09 0)
 			(effects
 				(font
@@ -4801,7 +4801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF16V"
+		(property "Value" "10u"
 			(at 187.96 60.96 0)
 			(effects
 				(font
@@ -5363,7 +5363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n_film"
 			(at 152.654 97.79 0)
 			(effects
 				(font
@@ -5441,7 +5441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF25V"
+		(property "Value" "100n"
 			(at 165.1 60.96 0)
 			(effects
 				(font
@@ -6122,7 +6122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF25V"
+		(property "Value" "100n"
 			(at 193.04 85.09 0)
 			(effects
 				(font
@@ -6295,7 +6295,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF25V"
+		(property "Value" "100n"
 			(at 242.57 74.93 0)
 			(effects
 				(font
@@ -6378,7 +6378,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "red"
 			(at 43.18 58.42 0)
 			(effects
 				(font
@@ -6533,7 +6533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF25V"
+		(property "Value" "100n"
 			(at 228.6 48.26 0)
 			(effects
 				(font
@@ -6683,7 +6683,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF16V"
+		(property "Value" "10u"
 			(at 192.151 124.333 0)
 			(effects
 				(font
@@ -6849,7 +6849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF16V"
+		(property "Value" "10u"
 			(at 175.641 124.333 0)
 			(effects
 				(font

@@ -4019,7 +4019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF16V"
+		(property "Value" "1u"
 			(at 69.85 82.55 0)
 			(effects
 				(font
@@ -4103,7 +4103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF25V"
+		(property "Value" "100n"
 			(at 45.339 95.377 0)
 			(effects
 				(font
@@ -4252,7 +4252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF16V"
+		(property "Value" "1u"
 			(at 96.139 99.187 0)
 			(effects
 				(font
@@ -4567,7 +4567,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "red"
 			(at 165.2778 121.285 0)
 			(effects
 				(font
@@ -4650,7 +4650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF25V"
+		(property "Value" "100n"
 			(at 80.01 125.73 0)
 			(effects
 				(font
@@ -4734,7 +4734,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF25V"
+		(property "Value" "100n"
 			(at 95.25 82.55 0)
 			(effects
 				(font
@@ -4900,7 +4900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2,2nF50V"
+		(property "Value" "2n2"
 			(at 66.04 153.67 0)
 			(effects
 				(font
@@ -4984,7 +4984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24.576Mhz"
+		(property "Value" "24.576M"
 			(at 223.52 119.38 0)
 			(effects
 				(font
@@ -5310,7 +5310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2,2nF50V"
+		(property "Value" "2n2"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -5394,7 +5394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF25V"
+		(property "Value" "100n"
 			(at 241.681 82.423 0)
 			(effects
 				(font
@@ -5925,7 +5925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF16V"
+		(property "Value" "1u"
 			(at 58.039 95.377 0)
 			(effects
 				(font
@@ -6348,7 +6348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF16V"
+		(property "Value" "1u"
 			(at 102.87 125.73 0)
 			(effects
 				(font
@@ -6432,7 +6432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF16V"
+		(property "Value" "1u"
 			(at 90.17 104.14 90)
 			(effects
 				(font
@@ -7798,7 +7798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22.5792Mhz"
+		(property "Value" "22.5792M"
 			(at 223.52 85.09 0)
 			(effects
 				(font
@@ -7888,7 +7888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2,2nF50V"
+		(property "Value" "2n2"
 			(at 78.74 153.67 0)
 			(effects
 				(font
@@ -8119,7 +8119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2,2nF50V"
+		(property "Value" "2n2"
 			(at 50.8 153.67 0)
 			(effects
 				(font
