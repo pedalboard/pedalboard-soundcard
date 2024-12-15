@@ -2607,7 +2607,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Kyocera%20International/Z_Series_X_Type.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2631,7 +2631,7 @@
 				)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/abracon-llc/ASV-22-5792MHZ-LR-T/15995980"
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/kyocera-avx/KC2016Z22-5792C1KX00/11610237"
 			(at 155.8 -7.7 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4597,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Kyocera%20International/Z_Series_X_Type.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4621,7 +4621,7 @@
 				)
 			)
 		)
-		(property "Supplier" "https://www.digikey.ch/de/products/detail/abracon-llc/ASDMB-24-576MHZ-LC-T/2809941"
+		(property "Supplier" "https://www.digikey.ch/en/products/detail/kyocera-avx/KC2016Z24-5760C1KX00/11610181"
 			(at 162.075 -13.875 0)
 			(layer "F.Fab")
 			(hide yes)
