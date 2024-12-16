@@ -18,8 +18,10 @@ import:
   - file: PCBWay
 
 preflight:
-  run_erc: true
-  run_drc: true
+  erc:
+    enabled: true
+  drc:
+    enabled: true
   check_zone_fills: true
   ignore_unconnected: false
   set_text_variables:
