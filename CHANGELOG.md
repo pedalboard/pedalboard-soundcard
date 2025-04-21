@@ -6,7 +6,7 @@
 - Improve XTAL footprint
 - EEPROM size
 
-## 1.1.0 - upgrades - 2025/10/16
+## 1.0.1 - upgrades - 2025/10/16
 
 - Upgrade to kicad 9.0
 
