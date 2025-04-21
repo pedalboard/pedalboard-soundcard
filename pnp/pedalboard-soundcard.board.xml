@@ -198,8 +198,9 @@
          <location units="Millimeters" x="59.37" y="-95.09" z="0.0" rotation="0.0"/>
          <error-handling>Alert</error-handling>
       </placement>
-      <placement version="1.4" id="R10" side="Top" part-id="R_0805_2012Metric-3K9" type="Placement" enabled="true">
+      <placement version="1.4" id="R10" side="Top" part-id="R_0805_2012Metric-3K9" type="Placement" enabled="false">
          <location units="Millimeters" x="82.85" y="-63.575" z="0.0" rotation="0.0"/>
+         <comments>don&apos;t write protect eeprom</comments>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" id="R11" side="Top" part-id="R_0805_2012Metric-100K" type="Placement" enabled="true">
