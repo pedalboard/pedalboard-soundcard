@@ -2,7 +2,7 @@
    <panels/>
    <board-locations>
       <board-location side="Top" board-file="pedalboard-soundcard.board.xml" panel-id="Panel1" check-fiducials="false" enabled="true">
-         <location units="Millimeters" x="183.59318234556767" y="367.09644980231565" z="12.0" rotation="0.11335241715937211"/>
+         <location units="Millimeters" x="183.83954688640839" y="367.7159207004915" z="8.3" rotation="-0.039716492796243764"/>
          <placed class="java.util.HashMap"/>
       </board-location>
    </board-locations>
