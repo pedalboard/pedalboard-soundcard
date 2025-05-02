@@ -4,7 +4,8 @@
 
 - Mic bias support
 - Improve XTAL footprint
-- EEPROM size
+- EEPROM size (32k)
+- Too much solder paste on small pads
 
 ## 1.0.1 - upgrades - 2025/10/16
 
