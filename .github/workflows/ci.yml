@@ -1,14 +1,15 @@
 name: "Generate output"
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
+    branches: [main]
+    tags: ["v*"]
     paths:
       - "*.kicad_sch"
       - "*.kicad_pcb"
       - ".github/workflows/ci.yml"
       - "pedalboard-soundcard.kibot.yaml"
+      - "site/**"
   pull_request:
     paths:
       - "*.kicad_sch"
@@ -18,46 +19,87 @@ on:
   repository_dispatch:
     types: [run_qs]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+permissions:
+  contents: write
+
 jobs:
-  kibot:
+  generate:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
 
     steps:
       - uses: actions/checkout@v4
         with:
-          # So we can run a diff between last 2 changes
           fetch-depth: "0"
 
-      - name: Kibot Generator
+      - name: Install rsync
+        run: |
+          apt-get update -qq && apt-get install -y -qq rsync > /dev/null 2>&1
+
+      - name: KiBot
         run: |
           kibot -e pedalboard-soundcard.kicad_sch -d generated
-      - name: Retrieve results
+
+      - name: Remove 3D Model (too large for github)
+        run: |
+          rm -f generated/3D/pedalboard-soundcard-3D.step
+
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: generated_outputs
           path: generated
 
-  # This step is to upload the results to another repo (web pages)
-  deploy:
-    runs-on: ubuntu-latest
-    needs: kibot
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Retrieve results
-        uses: actions/download-artifact@v4
-        with:
-          name: generated_outputs
-          path: generated
-
-      - name: Deploy navigate results
+      - name: Deploy latest to GitHub Pages
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main
+          branch: gh-pages
           folder: generated
           target-folder: latest
-          repository-name: pedalboard/pedalboard-soundcard-site
-          token: ${{ secrets.DEPLOY_TO_PEDALBOARD_SOUNDCARD_SITE }}
+          clean-exclude: |
+            v*
+            index.html
+            versions.json
+
+      - name: Build landing page
+        if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || startsWith(github.ref, 'refs/tags/v')
+        run: |
+          git fetch origin gh-pages:gh-pages || true
+          NEW_VERSIONS=$(git ls-tree --name-only gh-pages | grep -E '^v[0-9]' | sort -rV)
+          OLD_SITE="https://pedalboard.github.io/pedalboard-soundcard-site"
+          OLD_VERSIONS="v1.0.0"
+          mkdir -p landing
+          {
+            echo '['
+            echo '  "latest"'
+            for v in $NEW_VERSIONS; do echo "  ,\"$v\""; done
+            for v in $OLD_VERSIONS; do
+              echo "$NEW_VERSIONS" | grep -qw "$v" && continue
+              echo "  ,{\"label\":\"$v\",\"url\":\"$OLD_SITE/$v\"}"
+            done
+            echo ']'
+          } > landing/versions.json
+          cp site/index.html landing/index.html
+          touch landing/.nojekyll
+
+      - name: Deploy landing page
+        if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || startsWith(github.ref, 'refs/tags/v')
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: landing
+          clean: false
+
+      - name: Deploy versioned to GitHub Pages
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: generated
+          target-folder: ${{ github.ref_name }}
+          clean-exclude: |
+            v*
+            latest
+            index.html
+            versions.json
