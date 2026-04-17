@@ -1,0 +1,33 @@
+baseURL: https://pedalboard.github.io/pedalboard-soundcard/latest/
+languageCode: en-us
+title: Open Pedalboard — Soundcard
+
+module:
+  imports:
+    - path: github.com/laenzlinger/hugo-kicad-site
+
+params:
+  projectName: "Open Pedalboard — Soundcard"
+  description: "I²S audio codec HAT for Raspberry Pi — ADC + DAC for guitar pedalboard effects processing"
+  repoURL: "https://github.com/pedalboard/pedalboard-soundcard"
+  license: "CERN-OHL-P-2.0"
+  version: "main"
+  renders: []
+  downloads: []
+  kicadFiles: []
+  env: production
+  socialIcons:
+    - name: github
+      url: "https://github.com/pedalboard/pedalboard-soundcard"
+
+menu:
+  main:
+    - name: Board
+      url: /board/
+      weight: 20
+    - name: Release
+      url: /release/
+      weight: 30
+    - name: GitHub
+      url: https://github.com/pedalboard/pedalboard-soundcard
+      weight: 100
