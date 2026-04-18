@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>/PCB/3D/Auxiliar</title>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="styles.css">
+ <link rel="icon" href="favicon.ico">
+ <script src="markdown-it.min.js"></script>
+</head>
+<body>
+<div id="theSideNav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <ul>
+  <li><a href="pedalboard-soundcard-navigate_Schematic.html">Schematic</a></li>
+  <ul>
+   <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html">docs</a></li>
+   <ul>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html#erc">erc</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html#basic_diff_sch">basic_diff_sch</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html#basic_download_datasheets">basic_download_datasheets</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html#basic_dxf_sch_print">basic_dxf_sch_print</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html#basic_hpgl_sch_print">basic_hpgl_sch_print</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html#basic_info">basic_info</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html#basic_pdf_sch_print">basic_pdf_sch_print</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html#basic_ps_sch_print">basic_ps_sch_print</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_docs.html#basic_svg_sch_print">basic_svg_sch_print</a></li>
+   </ul>
+   <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html">BoM</a></li>
+   <ul>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#_JLCPCB_bom">_JLCPCB_bom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#_macrofab_xyrs">_macrofab_xyrs</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#generic_bom_html">generic_bom_html</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#generic_bom_csv">generic_bom_csv</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#generic_bom_hrtxt">generic_bom_hrtxt</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#generic_bom_tsv">generic_bom_tsv</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#generic_bom_xml">generic_bom_xml</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#generic_bom_xlsx">generic_bom_xlsx</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#positional_bom_html">positional_bom_html</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#positional_bom_xlsx">positional_bom_xlsx</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#costs_bom_xlsx">costs_bom_xlsx</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#macrofab_xyrs">macrofab_xyrs</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#JLCPCB_bom">JLCPCB_bom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_Schematic_BoM.html#basic_ibom">basic_ibom</a></li>
+   </ul>
+  </ul>
+  <li><a href="pedalboard-soundcard-navigate_PCB.html">PCB</a></li>
+  <ul>
+   <li><a href="pedalboard-soundcard-navigate_PCB_docs.html">docs</a></li>
+   <ul>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#drc">drc</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#_PCB2Blender_layers_2_1">_PCB2Blender_layers_2_1</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_diff_pcb">basic_diff_pcb</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_hpgl">basic_hpgl</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_info">basic_info</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_kikit_present">basic_kikit_present</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#renderer_for_present">renderer_for_present</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcb_print_pdf">basic_pcb_print_pdf</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcb_print_svg">basic_pcb_print_svg</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcb_print_png">basic_pcb_print_png</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcb_print_eps">basic_pcb_print_eps</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcb_print_ps">basic_pcb_print_ps</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_svg_jlcpcb_green_enig_top">basic_pcbdraw_svg_jlcpcb_green_enig_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_png_jlcpcb_green_enig_top">basic_pcbdraw_png_jlcpcb_green_enig_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_jpg_jlcpcb_green_enig_top">basic_pcbdraw_jpg_jlcpcb_green_enig_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_svg_set_blue_enig_top">basic_pcbdraw_svg_set_blue_enig_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_png_set_blue_enig_top">basic_pcbdraw_png_set_blue_enig_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_blue_enig_top">basic_pcbdraw_jpg_set_blue_enig_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_svg_set_red_hasl_top">basic_pcbdraw_svg_set_red_hasl_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_png_set_red_hasl_top">basic_pcbdraw_png_set_red_hasl_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_red_hasl_top">basic_pcbdraw_jpg_set_red_hasl_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_svg_jlcpcb_green_enig_bottom">basic_pcbdraw_svg_jlcpcb_green_enig_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_png_jlcpcb_green_enig_bottom">basic_pcbdraw_png_jlcpcb_green_enig_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_jpg_jlcpcb_green_enig_bottom">basic_pcbdraw_jpg_jlcpcb_green_enig_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_svg_set_blue_enig_bottom">basic_pcbdraw_svg_set_blue_enig_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_png_set_blue_enig_bottom">basic_pcbdraw_png_set_blue_enig_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_blue_enig_bottom">basic_pcbdraw_jpg_set_blue_enig_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_svg_set_red_hasl_bottom">basic_pcbdraw_svg_set_red_hasl_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_png_set_red_hasl_bottom">basic_pcbdraw_png_set_red_hasl_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_red_hasl_bottom">basic_pcbdraw_jpg_set_red_hasl_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_pdf">basic_pdf</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_ps">basic_ps</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_docs.html#basic_svg">basic_svg</a></li>
+   </ul>
+   <li><a href="pedalboard-soundcard-navigate_PCB_fabrication.html">fabrication</a></li>
+   <ul>
+    <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html">gerber</a></li>
+    <ul>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#_Elecrow_gerbers">_Elecrow_gerbers</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#_Elecrow_compress">_Elecrow_compress</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#_FusionPCB_gerbers">_FusionPCB_gerbers</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#_FusionPCB_compress">_FusionPCB_compress</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#_JLCPCB_gerbers">_JLCPCB_gerbers</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#_JLCPCB_compress">_JLCPCB_compress</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#_PCBWay_gerbers">_PCBWay_gerbers</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#_PCBWay_compress">_PCBWay_compress</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#gerber_modern">gerber_modern</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#Elecrow_gerbers">Elecrow_gerbers</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#Elecrow">Elecrow</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#PCBWay_gerbers">PCBWay_gerbers</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#PCBWay">PCBWay</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#FusionPCB_gerbers">FusionPCB_gerbers</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#FusionPCB">FusionPCB</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#JLCPCB_gerbers">JLCPCB_gerbers</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#JLCPCB">JLCPCB</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_gerber.html#gerbers_for_present">gerbers_for_present</a></li>
+    </ul>
+    <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html">drill</a></li>
+    <ul>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#_Elecrow_drill">_Elecrow_drill</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#_Elecrow_compress">_Elecrow_compress</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#_FusionPCB_drill">_FusionPCB_drill</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#_FusionPCB_compress">_FusionPCB_compress</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#_JLCPCB_drill">_JLCPCB_drill</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#_JLCPCB_compress">_JLCPCB_compress</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#_PCBWay_drill">_PCBWay_drill</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#_PCBWay_compress">_PCBWay_compress</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#basic_excellon">basic_excellon</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#basic_gerb_drill">basic_gerb_drill</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#Elecrow_drill">Elecrow_drill</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#Elecrow">Elecrow</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#PCBWay_drill">PCBWay_drill</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#PCBWay">PCBWay</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#FusionPCB_drill">FusionPCB_drill</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#FusionPCB">FusionPCB</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#JLCPCB_drill">JLCPCB_drill</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_drill.html#JLCPCB">JLCPCB</a></li>
+    </ul>
+    <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html">assembly</a></li>
+    <ul>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html#_JLCPCB_position">_JLCPCB_position</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html#basic_boardview">basic_boardview</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html#JLCPCB_position">JLCPCB_position</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html#JLCPCB">JLCPCB</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html#basic_ibom">basic_ibom</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html#basic_position_ASCII">basic_position_ASCII</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html#basic_position_CSV">basic_position_CSV</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html#basic_stencil_3d">basic_stencil_3d</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_fabrication_assembly.html#basic_stencil_for_jig">basic_stencil_for_jig</a></li>
+    </ul>
+    <li><a href="pedalboard-soundcard-navigate_PCB_fabrication.html#panel">panel</a></li>
+   </ul>
+   <li><a href="pedalboard-soundcard-navigate_PCB_3D.html">3D</a></li>
+   <ul>
+    <li><a href="pedalboard-soundcard-navigate_PCB_3D_Auxiliar.html">Auxiliar</a></li>
+    <ul>
+     <li><a href="pedalboard-soundcard-navigate_PCB_3D_Auxiliar.html#_PCB2Blender_tools_2_1">_PCB2Blender_tools_2_1</a></li>
+     <li><a href="pedalboard-soundcard-navigate_PCB_3D_Auxiliar.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
+    </ul>
+    <li><a href="pedalboard-soundcard-navigate_PCB_3D.html#_PCB2Blender_vrml_2_1">_PCB2Blender_vrml_2_1</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_3D.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_3D.html#basic_blender_export">basic_blender_export</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_3D.html#basic_render_3d_top">basic_render_3d_top</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_3D.html#basic_render_3d_30deg">basic_render_3d_30deg</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_3D.html#basic_render_3d_bottom">basic_render_3d_bottom</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_3D.html#basic_step">basic_step</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_3D.html#basic_vrml">basic_vrml</a></li>
+   </ul>
+   <li><a href="pedalboard-soundcard-navigate_PCB_repair.html">repair</a></li>
+   <ul>
+    <li><a href="pedalboard-soundcard-navigate_PCB_repair.html#basic_boardview">basic_boardview</a></li>
+   </ul>
+   <li><a href="pedalboard-soundcard-navigate_PCB_export.html">export</a></li>
+   <ul>
+    <li><a href="pedalboard-soundcard-navigate_PCB_export.html#basic_dxf">basic_dxf</a></li>
+    <li><a href="pedalboard-soundcard-navigate_PCB_export.html#basic_gencad">basic_gencad</a></li>
+   </ul>
+  </ul>
+ </ul>
+</div>
+<div id="theTopMenu" class="topmenu">
+ <table style="width:100%">
+  <tr>
+   <td valign="top" align="left">
+    <span id="bmenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+   </td>
+   <td>
+     <a href="https://github.com/INTI-CMNB/KiBot/">
+     <img src="images/logo.png" alt="Logo" width="370" height="200">
+     </a>
+   </td>
+   <td>
+     <a href="https://github.com/pedalboard/pedalboard-soundcard">
+     <span style="font-size:30px;">Open Pedalboard Soundcard</span>
+     </a>
+   </td>
+  </tr>
+ </table>
+</div>
+<div id="main">
+<table id="_PCB2Blender_tools_2_1" class="output-table">
+<thead><tr><th colspan="12"> PCB2Blender tools 2 1: Pads information and board bounds for PCB3D 2.1</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/layers/bounds"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="bounds" width="64" height="64"></td></tr><tr><td class="td-small">bounds</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/MountingHole_H4_0_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="MountingHole_H4_0_0" width="64" height="64"></td></tr><tr><td class="td-small">MountingHole_H4_0_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/MountingHole_H3_1_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="MountingHole_H3_1_0" width="64" height="64"></td></tr><tr><td class="td-small">MountingHole_H3_1_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/MountingHole_H1_2_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="MountingHole_H1_2_0" width="64" height="64"></td></tr><tr><td class="td-small">MountingHole_H1_2_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/MountingHole_H2_3_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="MountingHole_H2_3_0" width="64" height="64"></td></tr><tr><td class="td-small">MountingHole_H2_3_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_0" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_1" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_2" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_3" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_4" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_5"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_5" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_5</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_6"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_6" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_6</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_7"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_7" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_7</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_8"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_8" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_8</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_9"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_9" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_9</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_10"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_10" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_10</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_11"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_11" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_11</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_12"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_12" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_12</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_13"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_13" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_13</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_14"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_14" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_14</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_15"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_15" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_15</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_16"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_16" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_16</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_17"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_17" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_17</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_18"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_18" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_18</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_19"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_19" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_19</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_20"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_20" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_20</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_21"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_21" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_21</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_22"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_22" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_22</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_23"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_23" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_23</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_24"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_24" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_24</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_25"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_25" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_25</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_26"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_26" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_26</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_27"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_27" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_27</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_28"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_28" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_28</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_29"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_29" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_29</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_30"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_30" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_30</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_31"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_31" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_31</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_32"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_32" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_32</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_33"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_33" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_33</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_34"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_34" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_34</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_35"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_35" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_35</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_36"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_36" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_36</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_37"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_37" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_37</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_38"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_38" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_38</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/RPi_GPIO_J1_4_39"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="RPi_GPIO_J1_4_39" width="64" height="64"></td></tr><tr><td class="td-small">RPi_GPIO_J1_4_39</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/SJP_JP1_5_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="SJP_JP1_5_0" width="64" height="64"></td></tr><tr><td class="td-small">SJP_JP1_5_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/SJP_JP1_5_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="SJP_JP1_5_1" width="64" height="64"></td></tr><tr><td class="td-small">SJP_JP1_5_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/3K9_R7_6_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="3K9_R7_6_0" width="64" height="64"></td></tr><tr><td class="td-small">3K9_R7_6_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/3K9_R7_6_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="3K9_R7_6_1" width="64" height="64"></td></tr><tr><td class="td-small">3K9_R7_6_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R25_8_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R25_8_0" width="64" height="64"></td></tr><tr><td class="td-small">10K_R25_8_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R25_8_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R25_8_1" width="64" height="64"></td></tr><tr><td class="td-small">10K_R25_8_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/2n2_C21_9_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="2n2_C21_9_0" width="64" height="64"></td></tr><tr><td class="td-small">2n2_C21_9_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/2n2_C21_9_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="2n2_C21_9_1" width="64" height="64"></td></tr><tr><td class="td-small">2n2_C21_9_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/22_5792M_X1_10_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="22_5792M_X1_10_0" width="64" height="64"></td></tr><tr><td class="td-small">22_5792M_X1_10_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/22_5792M_X1_10_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="22_5792M_X1_10_1" width="64" height="64"></td></tr><tr><td class="td-small">22_5792M_X1_10_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/22_5792M_X1_10_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="22_5792M_X1_10_2" width="64" height="64"></td></tr><tr><td class="td-small">22_5792M_X1_10_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/22_5792M_X1_10_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="22_5792M_X1_10_3" width="64" height="64"></td></tr><tr><td class="td-small">22_5792M_X1_10_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Fiducial_FID4_11_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Fiducial_FID4_11_0" width="64" height="64"></td></tr><tr><td class="td-small">Fiducial_FID4_11_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U2_12_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U2_12_0" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U2_12_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U2_12_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U2_12_1" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U2_12_1</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U2_12_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U2_12_2" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U2_12_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U2_12_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U2_12_3" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U2_12_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U2_12_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U2_12_4" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U2_12_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/470R_R16_13_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="470R_R16_13_0" width="64" height="64"></td></tr><tr><td class="td-small">470R_R16_13_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/470R_R16_13_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="470R_R16_13_1" width="64" height="64"></td></tr><tr><td class="td-small">470R_R16_13_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C3_14_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C3_14_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C3_14_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C3_14_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C3_14_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C3_14_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C16_15_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C16_15_0" width="64" height="64"></td></tr><tr><td class="td-small">100n_C16_15_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C16_15_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C16_15_1" width="64" height="64"></td></tr><tr><td class="td-small">100n_C16_15_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C32_16_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C32_16_0" width="64" height="64"></td></tr><tr><td class="td-small">100n_C32_16_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C32_16_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C32_16_1" width="64" height="64"></td></tr><tr><td class="td-small">100n_C32_16_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/3K9_R5_17_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="3K9_R5_17_0" width="64" height="64"></td></tr><tr><td class="td-small">3K9_R5_17_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/3K9_R5_17_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="3K9_R5_17_1" width="64" height="64"></td></tr><tr><td class="td-small">3K9_R5_17_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/3K9_R10_18_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="3K9_R10_18_0" width="64" height="64"></td></tr><tr><td class="td-small">3K9_R10_18_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/3K9_R10_18_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="3K9_R10_18_1" width="64" height="64"></td></tr><tr><td class="td-small">3K9_R10_18_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/24_576M_X2_19_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="24_576M_X2_19_0" width="64" height="64"></td></tr><tr><td class="td-small">24_576M_X2_19_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/24_576M_X2_19_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="24_576M_X2_19_1" width="64" height="64"></td></tr><tr><td class="td-small">24_576M_X2_19_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/24_576M_X2_19_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="24_576M_X2_19_2" width="64" height="64"></td></tr><tr><td class="td-small">24_576M_X2_19_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/24_576M_X2_19_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="24_576M_X2_19_3" width="64" height="64"></td></tr><tr><td class="td-small">24_576M_X2_19_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/LED_R_D2_20_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="LED_R_D2_20_0" width="64" height="64"></td></tr><tr><td class="td-small">LED_R_D2_20_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/LED_R_D2_20_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="LED_R_D2_20_1" width="64" height="64"></td></tr><tr><td class="td-small">LED_R_D2_20_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C14_21_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C14_21_0" width="64" height="64"></td></tr><tr><td class="td-small">100n_C14_21_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C14_21_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C14_21_1" width="64" height="64"></td></tr><tr><td class="td-small">100n_C14_21_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C28_22_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C28_22_0" width="64" height="64"></td></tr><tr><td class="td-small">100n_C28_22_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C28_22_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C28_22_1" width="64" height="64"></td></tr><tr><td class="td-small">100n_C28_22_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C11_23_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C11_23_0" width="64" height="64"></td></tr><tr><td class="td-small">100n_C11_23_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C11_23_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C11_23_1" width="64" height="64"></td></tr><tr><td class="td-small">100n_C11_23_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C4_24_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C4_24_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C4_24_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C4_24_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C4_24_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C4_24_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100K_R11_25_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100K_R11_25_0" width="64" height="64"></td></tr><tr><td class="td-small">100K_R11_25_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100K_R11_25_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100K_R11_25_1" width="64" height="64"></td></tr><tr><td class="td-small">100K_R11_25_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C7_26_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C7_26_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C7_26_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C7_26_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C7_26_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C7_26_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Fiducial_FID1_27_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Fiducial_FID1_27_0" width="64" height="64"></td></tr><tr><td class="td-small">Fiducial_FID1_27_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C24_28_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C24_28_0" width="64" height="64"></td></tr><tr><td class="td-small">1u_C24_28_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C24_28_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C24_28_1" width="64" height="64"></td></tr><tr><td class="td-small">1u_C24_28_1</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Fiducial_FID2_29_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Fiducial_FID2_29_0" width="64" height="64"></td></tr><tr><td class="td-small">Fiducial_FID2_29_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C6_30_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C6_30_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C6_30_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C6_30_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C6_30_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C6_30_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/470R_R19_31_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="470R_R19_31_0" width="64" height="64"></td></tr><tr><td class="td-small">470R_R19_31_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/470R_R19_31_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="470R_R19_31_1" width="64" height="64"></td></tr><tr><td class="td-small">470R_R19_31_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C23_32_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C23_32_0" width="64" height="64"></td></tr><tr><td class="td-small">1u_C23_32_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C23_32_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C23_32_1" width="64" height="64"></td></tr><tr><td class="td-small">1u_C23_32_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R12_33_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R12_33_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R12_33_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R12_33_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R12_33_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R12_33_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C9_34_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C9_34_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C9_34_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C9_34_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C9_34_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C9_34_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_0" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_1" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_2" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_3" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_4" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_5"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_5" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_5</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_6"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_6" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_6</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_7"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_7" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_7</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_8"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_8" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_8</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J4_35_9"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J4_35_9" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J4_35_9</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100K_R13_36_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100K_R13_36_0" width="64" height="64"></td></tr><tr><td class="td-small">100K_R13_36_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100K_R13_36_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100K_R13_36_1" width="64" height="64"></td></tr><tr><td class="td-small">100K_R13_36_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/2n2_C26_37_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="2n2_C26_37_0" width="64" height="64"></td></tr><tr><td class="td-small">2n2_C26_37_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/2n2_C26_37_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="2n2_C26_37_1" width="64" height="64"></td></tr><tr><td class="td-small">2n2_C26_37_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R1_38_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R1_38_0" width="64" height="64"></td></tr><tr><td class="td-small">10K_R1_38_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R1_38_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R1_38_1" width="64" height="64"></td></tr><tr><td class="td-small">10K_R1_38_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C5_39_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C5_39_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C5_39_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C5_39_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C5_39_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C5_39_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C13_40_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C13_40_0" width="64" height="64"></td></tr><tr><td class="td-small">1u_C13_40_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C13_40_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C13_40_1" width="64" height="64"></td></tr><tr><td class="td-small">1u_C13_40_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R15_41_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R15_41_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R15_41_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R15_41_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R15_41_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R15_41_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C15_43_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C15_43_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C15_43_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C15_43_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C15_43_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C15_43_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C30_44_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C30_44_0" width="64" height="64"></td></tr><tr><td class="td-small">1u_C30_44_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C30_44_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C30_44_1" width="64" height="64"></td></tr><tr><td class="td-small">1u_C30_44_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/2n2_C25_45_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="2n2_C25_45_0" width="64" height="64"></td></tr><tr><td class="td-small">2n2_C25_45_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/2n2_C25_45_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="2n2_C25_45_1" width="64" height="64"></td></tr><tr><td class="td-small">2n2_C25_45_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R23_46_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R23_46_0" width="64" height="64"></td></tr><tr><td class="td-small">10K_R23_46_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R23_46_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R23_46_1" width="64" height="64"></td></tr><tr><td class="td-small">10K_R23_46_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C31_47_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C31_47_0" width="64" height="64"></td></tr><tr><td class="td-small">1u_C31_47_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C31_47_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C31_47_1" width="64" height="64"></td></tr><tr><td class="td-small">1u_C31_47_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/LED_R_D1_49_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="LED_R_D1_49_0" width="64" height="64"></td></tr><tr><td class="td-small">LED_R_D1_49_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/LED_R_D1_49_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="LED_R_D1_49_1" width="64" height="64"></td></tr><tr><td class="td-small">LED_R_D1_49_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_0" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_1" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_2" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_2</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_3" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_4" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_5"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_5" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_5</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_6"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_6" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_6</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_7"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_7" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_7</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_8"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_8" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_8</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_9"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_9" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_9</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_10"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_10" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_10</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_11"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_11" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_11</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_12"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_12" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_12</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_13"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_13" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_13</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_14"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_14" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_14</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_15"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_15" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_15</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_16"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_16" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_16</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_17"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_17" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_17</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_18"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_18" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_18</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_19"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_19" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_19</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_20"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_20" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_20</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_21"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_21" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_21</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_22"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_22" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_22</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_23"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_23" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_23</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_24"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_24" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_24</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_25"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_25" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_25</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_26"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_26" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_26</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_27"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_27" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_27</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_28"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_28" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_28</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_29"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_29" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_29</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_30"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_30" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_30</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_31"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_31" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_31</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_32"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_32" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_32</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_33"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_33" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_33</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_34"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_34" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_34</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_35"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_35" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_35</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_36"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_36" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_36</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_37"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_37" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_37</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_38"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_38" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_38</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_39"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_39" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_39</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_40"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_40" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_40</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_41"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_41" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_41</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_42"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_42" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_42</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_43"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_43" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_43</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_44"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_44" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_44</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_45"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_45" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_45</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_46"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_46" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_46</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_47"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_47" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_47</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_48"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_48" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_48</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_49"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_49" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_49</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_50"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_50" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_50</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_51"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_51" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_51</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_52"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_52" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_52</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_53"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_53" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_53</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_54"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_54" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_54</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_55"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_55" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_55</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_56"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_56" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_56</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_57"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_57" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_57</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM5242RHBR_U6_50_58"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM5242RHBR_U6_50_58" width="64" height="64"></td></tr><tr><td class="td-small">PCM5242RHBR_U6_50_58</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U5_51_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U5_51_0" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U5_51_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U5_51_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U5_51_1" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U5_51_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U5_51_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U5_51_2" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U5_51_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U5_51_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U5_51_3" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U5_51_3</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U5_51_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U5_51_4" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U5_51_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C8_52_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C8_52_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C8_52_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C8_52_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C8_52_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C8_52_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R21_53_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R21_53_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R21_53_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R21_53_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R21_53_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R21_53_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/SJP_JP2_54_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="SJP_JP2_54_0" width="64" height="64"></td></tr><tr><td class="td-small">SJP_JP2_54_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/SJP_JP2_54_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="SJP_JP2_54_1" width="64" height="64"></td></tr><tr><td class="td-small">SJP_JP2_54_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R8_55_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R8_55_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R8_55_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R8_55_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R8_55_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R8_55_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R14_56_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R14_56_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R14_56_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R14_56_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R14_56_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R14_56_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10n_film_C34_57_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10n_film_C34_57_0" width="64" height="64"></td></tr><tr><td class="td-small">10n_film_C34_57_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10n_film_C34_57_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10n_film_C34_57_1" width="64" height="64"></td></tr><tr><td class="td-small">10n_film_C34_57_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C12_58_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C12_58_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C12_58_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C12_58_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C12_58_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C12_58_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/2n2_C22_59_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="2n2_C22_59_0" width="64" height="64"></td></tr><tr><td class="td-small">2n2_C22_59_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/2n2_C22_59_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="2n2_C22_59_1" width="64" height="64"></td></tr><tr><td class="td-small">2n2_C22_59_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C27_60_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C27_60_0" width="64" height="64"></td></tr><tr><td class="td-small">1u_C27_60_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C27_60_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C27_60_1" width="64" height="64"></td></tr><tr><td class="td-small">1u_C27_60_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R22_61_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R22_61_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R22_61_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R22_61_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R22_61_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R22_61_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Fiducial_FID3_62_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Fiducial_FID3_62_0" width="64" height="64"></td></tr><tr><td class="td-small">Fiducial_FID3_62_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/470R_R18_64_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="470R_R18_64_0" width="64" height="64"></td></tr><tr><td class="td-small">470R_R18_64_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/470R_R18_64_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="470R_R18_64_1" width="64" height="64"></td></tr><tr><td class="td-small">470R_R18_64_1</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C29_65_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C29_65_0" width="64" height="64"></td></tr><tr><td class="td-small">100n_C29_65_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C29_65_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C29_65_1" width="64" height="64"></td></tr><tr><td class="td-small">100n_C29_65_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_0" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_1" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_2" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_3" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_4" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_5"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_5" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_5</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_6"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_6" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_6</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_7"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_7" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_7</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_8"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_8" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_8</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Audio_Jack_J5_66_9"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Audio_Jack_J5_66_9" width="64" height="64"></td></tr><tr><td class="td-small">Audio_Jack_J5_66_9</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_0" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_1" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_2" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_3" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_4" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_5"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_5" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_5</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_6"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_6" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_6</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_7"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_7" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_7</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_8"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_8" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_8</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_9"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_9" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_9</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_10"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_10" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_10</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_11"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_11" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_11</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_12"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_12" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_12</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_13"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_13" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_13</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_14"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_14" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_14</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_15"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_15" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_15</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_16"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_16" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_16</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_17"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_17" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_17</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_18"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_18" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_18</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_19"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_19" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_19</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_20"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_20" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_20</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_21"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_21" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_21</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_22"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_22" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_22</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_23"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_23" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_23</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_24"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_24" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_24</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_25"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_25" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_25</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_26"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_26" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_26</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_27"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_27" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_27</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_28"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_28" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_28</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/PCM1863DBT_U4_67_29"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="PCM1863DBT_U4_67_29" width="64" height="64"></td></tr><tr><td class="td-small">PCM1863DBT_U4_67_29</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U3_68_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U3_68_0" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U3_68_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U3_68_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U3_68_1" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U3_68_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U3_68_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U3_68_2" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U3_68_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U3_68_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U3_68_3" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U3_68_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/NCP163_U3_68_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="NCP163_U3_68_4" width="64" height="64"></td></tr><tr><td class="td-small">NCP163_U3_68_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R26_69_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R26_69_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R26_69_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R26_69_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R26_69_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R26_69_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C1_70_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C1_70_0" width="64" height="64"></td></tr><tr><td class="td-small">100n_C1_70_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C1_70_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C1_70_1" width="64" height="64"></td></tr><tr><td class="td-small">100n_C1_70_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10n_film_C33_71_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10n_film_C33_71_0" width="64" height="64"></td></tr><tr><td class="td-small">10n_film_C33_71_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10n_film_C33_71_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10n_film_C33_71_1" width="64" height="64"></td></tr><tr><td class="td-small">10n_film_C33_71_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R3_72_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R3_72_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R3_72_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R3_72_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R3_72_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R3_72_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R27_73_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R27_73_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R27_73_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R27_73_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R27_73_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R27_73_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C20_74_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C20_74_0" width="64" height="64"></td></tr><tr><td class="td-small">100n_C20_74_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C20_74_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C20_74_1" width="64" height="64"></td></tr><tr><td class="td-small">100n_C20_74_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/470R_R17_75_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="470R_R17_75_0" width="64" height="64"></td></tr><tr><td class="td-small">470R_R17_75_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/470R_R17_75_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="470R_R17_75_1" width="64" height="64"></td></tr><tr><td class="td-small">470R_R17_75_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R24_76_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R24_76_0" width="64" height="64"></td></tr><tr><td class="td-small">10K_R24_76_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R24_76_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R24_76_1" width="64" height="64"></td></tr><tr><td class="td-small">10K_R24_76_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C10_77_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C10_77_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C10_77_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C10_77_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C10_77_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C10_77_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R20_78_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R20_78_0" width="64" height="64"></td></tr><tr><td class="td-small">10K_R20_78_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10K_R20_78_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10K_R20_78_1" width="64" height="64"></td></tr><tr><td class="td-small">10K_R20_78_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100K_R9_79_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100K_R9_79_0" width="64" height="64"></td></tr><tr><td class="td-small">100K_R9_79_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100K_R9_79_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100K_R9_79_1" width="64" height="64"></td></tr><tr><td class="td-small">100K_R9_79_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C18_80_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C18_80_0" width="64" height="64"></td></tr><tr><td class="td-small">1u_C18_80_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C18_80_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C18_80_1" width="64" height="64"></td></tr><tr><td class="td-small">1u_C18_80_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/3K9_R6_82_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="3K9_R6_82_0" width="64" height="64"></td></tr><tr><td class="td-small">3K9_R6_82_0</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/3K9_R6_82_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="3K9_R6_82_1" width="64" height="64"></td></tr><tr><td class="td-small">3K9_R6_82_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R2_83_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R2_83_0" width="64" height="64"></td></tr><tr><td class="td-small">100R_R2_83_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100R_R2_83_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100R_R2_83_1" width="64" height="64"></td></tr><tr><td class="td-small">100R_R2_83_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C19_84_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C19_84_0" width="64" height="64"></td></tr><tr><td class="td-small">100n_C19_84_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100n_C19_84_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100n_C19_84_1" width="64" height="64"></td></tr><tr><td class="td-small">100n_C19_84_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C2_85_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C2_85_0" width="64" height="64"></td></tr><tr><td class="td-small">10u_C2_85_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/10u_C2_85_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="10u_C2_85_1" width="64" height="64"></td></tr><tr><td class="td-small">10u_C2_85_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100K_R4_86_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100K_R4_86_0" width="64" height="64"></td></tr><tr><td class="td-small">100K_R4_86_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/100K_R4_86_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="100K_R4_86_1" width="64" height="64"></td></tr><tr><td class="td-small">100K_R4_86_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/AT24CS01_STUM_U1_87_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="AT24CS01_STUM_U1_87_0" width="64" height="64"></td></tr><tr><td class="td-small">AT24CS01_STUM_U1_87_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/AT24CS01_STUM_U1_87_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="AT24CS01_STUM_U1_87_1" width="64" height="64"></td></tr><tr><td class="td-small">AT24CS01_STUM_U1_87_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/AT24CS01_STUM_U1_87_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="AT24CS01_STUM_U1_87_2" width="64" height="64"></td></tr><tr><td class="td-small">AT24CS01_STUM_U1_87_2</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/AT24CS01_STUM_U1_87_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="AT24CS01_STUM_U1_87_3" width="64" height="64"></td></tr><tr><td class="td-small">AT24CS01_STUM_U1_87_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/AT24CS01_STUM_U1_87_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="AT24CS01_STUM_U1_87_4" width="64" height="64"></td></tr><tr><td class="td-small">AT24CS01_STUM_U1_87_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C17_88_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C17_88_0" width="64" height="64"></td></tr><tr><td class="td-small">1u_C17_88_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/1u_C17_88_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="1u_C17_88_1" width="64" height="64"></td></tr><tr><td class="td-small">1u_C17_88_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J3_89_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J3_89_0" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J3_89_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J3_89_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J3_89_1" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J3_89_1</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J3_89_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J3_89_2" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J3_89_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J3_89_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J3_89_3" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J3_89_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J3_89_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J3_89_4" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J3_89_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J3_89_5"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J3_89_5" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J3_89_5</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J2_90_0"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J2_90_0" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J2_90_0</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J2_90_1"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J2_90_1" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J2_90_1</td></tr></table></a></td>
+</tr>
+<tr>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J2_90_2"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J2_90_2" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J2_90_2</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J2_90_3"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J2_90_3" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J2_90_3</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J2_90_4"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J2_90_4" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J2_90_4</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/pads/Conn_02x03_Odd_Even_J2_90_5"><table class="out-img"><tr><td><img src="images/unknown_64.png" alt="Conn_02x03_Odd_Even_J2_90_5" width="64" height="64"></td></tr><tr><td class="td-small">Conn_02x03_Odd_Even_J2_90_5</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="../pedalboard-soundcard_pcb3d/boards"><table class="out-img"><tr><td><img src="images/folder_64.png" alt="boards" width="64" height="64"></td></tr><tr><td class="td-small">boards</td></tr></table></a></td>
+<td class="out-cell" colspan="7"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="_PCB2Blender_2_1" class="output-table">
+<thead><tr><th colspan="12"> PCB2Blender 2 1: PCB3D model for pcb2blender plug-in</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="../pedalboard-soundcard.pcb3d"><table class="out-img"><tr><td><img src="images/file_pcb3d_64.png" alt="pedalboard-soundcard.pcb3d" width="64" height="64"></td></tr><tr><td class="td-small">pedalboard-soundcard.pcb3d</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="nav-table"> <tr>  <td><a href="pedalboard-soundcard-navigate_PCB_3D.html"><img src="images/back_64.png" width="64" height="64" alt="go back"></a></td>  <td><a href="pedalboard-soundcard-navigate.html"><img src="images/home_64.png" width="64" height="64" alt="go home"></a></td> </tr></table><p class="generator">Generated by <a href="https://github.com/INTI-CMNB/KiBot/">KiBot</a> v1.8.5</p>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("theSideNav").style.width = "360px";
+  document.getElementById("main").style.marginLeft = "360px";
+  document.getElementById("theTopMenu").style.marginLeft = "360px";
+  document.getElementById("bmenu").style.display = "none";
+}
+
+function closeNav() {
+  document.getElementById("theSideNav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("theTopMenu").style.marginLeft = "0";
+  document.getElementById("bmenu").style.display = "block";
+}
+
+function ScrollUp() {
+  /* When we come here from the navbar we must scroll to avoid the top menu */
+  var p = document.getElementById("main");
+  var style = p.currentStyle || window.getComputedStyle(p);
+  var m_top = parseInt(style.marginTop)
+
+  window.scrollBy(0, -(m_top + 5));
+}
+
+window.onload = ScrollUp;
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const md = window.markdownit({
+        html: true,
+        linkify: true,
+        typographer: true
+    });
+
+    // Find all markdown containers and render them
+    document.querySelectorAll('.markdown-content').forEach(container => {
+        const rawMarkdown = container.innerHTML;
+        container.style.display = 'block';
+        container.innerHTML = md.render(rawMarkdown);
+    });
+});
+</script>
+</body>
+</html>
