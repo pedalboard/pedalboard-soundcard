@@ -1,6 +1,6 @@
 # Pedalboard Soundcard
 
-I²S audio codec HAT for Raspberry Pi — ADC + DAC for guitar pedalboard effects processing.
+I²S audio codec HAT for Raspberry Pi — ADC + DAC for the [Open Pedalboard](https://github.com/pedalboard) system.
 
 **[Documentation →](https://pedalboard.github.io/pedalboard-soundcard/latest/)**
 
@@ -8,22 +8,22 @@ I²S audio codec HAT for Raspberry Pi — ADC + DAC for guitar pedalboard effect
 
 ## Features
 
-- Stereo ADC (guitar input) + stereo DAC (output to amp)
+- TI Burr-Brown PCM1863 ADC (106dB SNR) + PCM5242 DAC (112dB SNR)
+- Stereo differential input (guitar) + stereo output (amp)
 - I²S interface to Raspberry Pi GPIO header
 - Low-latency audio path for real-time effects
 - Raspberry Pi HAT form factor
 
 ## Links
 
-* [Interactive BOM](https://pedalboard.github.io/pedalboard-soundcard/latest/board/)
-* [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/OT2O5ZLS9K)
+- [Interactive schematic & PCB viewer](https://pedalboard.github.io/pedalboard-soundcard/latest/board/)
+- [Digi-Key shared list](https://www.digikey.ch/de/mylists/list/OT2O5ZLS9K)
 
 ## Acknowledgements
 
-The project is based on Dave Vandenbout's [RPi Hat Template](https://github.com/devbisme/RPi_Hat_Template)
-
-The schematics are derived from Jośe Fernando Moyano's [ZynADC](https://github.com/zynthian/zynthian-hw/tree/master/ZynADAC) licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)
+Based on Dave Vandenbout's [RPi Hat Template](https://github.com/devbisme/RPi_Hat_Template).
+Schematics derived from Jośe Fernando Moyano's [ZynADC](https://github.com/zynthian/zynthian-hw/tree/master/ZynADAC) ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 ## License
 
-[CERN Open Hardware Licence Version 2 - Permissive](LICENSE.txt)
+[![License](https://img.shields.io/badge/License-CERN--OHL--P--2.0-green)](LICENSE.txt)
