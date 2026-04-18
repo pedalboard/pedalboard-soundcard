@@ -1113,6 +1113,7 @@ outputs:
           text: https://github.com/INTI-CMNB/KiBot/
       use_sch_dir: false
   - name: basic_render_3d_top
+    run_by_default: false
     comment: 3D view from top
     type: render_3d
     dir: 3D
@@ -1121,6 +1122,7 @@ outputs:
       orthographic: true
       zoom: 1
   - name: basic_render_3d_30deg
+    run_by_default: false
     comment: 3D view from 30 degrees
     type: render_3d
     dir: 3D
@@ -1131,6 +1133,7 @@ outputs:
       rotate_z: -2
       zoom: 1
   - name: basic_render_3d_bottom
+    run_by_default: false
     comment: 3D view from bottom
     type: render_3d
     dir: 3D
