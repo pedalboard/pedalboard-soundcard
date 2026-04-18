@@ -1,6 +1,4 @@
 [
-  {
-    "tag": "latest",
-    "latest": true
-  }
+  {"tag": "latest", "latest": true},
+  {"tag": "v1.0.0", "url": "https://pedalboard.github.io/pedalboard-soundcard-site/v1.0.0/Browse/pedalboard-soundcard-navigate.html"}
 ]
