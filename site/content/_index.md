@@ -26,3 +26,8 @@ processing in the [Open Pedalboard](https://github.com/pedalboard) system.
 - Raspberry Pi HAT form factor
 - Dedicated low-noise LDO regulators for analog supply
 
+## Related
+
+- [Main Board](https://pedalboard.github.io/pedalboard-hw/latest/) — carrier board and MIDI controller
+- [Display Board](https://pedalboard.github.io/pedalboard-display/latest/) — LED rings and OLED displays
+
