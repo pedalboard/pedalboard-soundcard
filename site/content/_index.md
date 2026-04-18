@@ -25,3 +25,5 @@ processing in the [Open Pedalboard](https://github.com/pedalboard) system.
 - Low-latency audio path for real-time effects
 - Raspberry Pi HAT form factor
 - Dedicated low-noise LDO regulators for analog supply
+
+[![License](https://img.shields.io/badge/License-CERN--OHL--P--2.0-green)](LICENSE.txt)
