@@ -2,10 +2,10 @@
 	(version "E")
 	(design
 		(source "/__w/pedalboard-soundcard/pedalboard-soundcard/pedalboard-soundcard.kicad_sch")
-		(date "2026-04-22T16:07:37")
+		(date "2026-04-22T16:11:23")
 		(tool "Eeschema 10.0.1-10.0.1~ubuntu25.10.1")
 		(textvar
-			(name "GIT_HASH") "cfda140")
+			(name "GIT_HASH") "95a273a")
 		(sheet
 			(number "1")
 			(name "/")
@@ -26,7 +26,7 @@
 				)
 				(comment
 					(number "3")
-					(value "git hash: cfda140")
+					(value "git hash: 95a273a")
 				)
 				(comment
 					(number "4")
@@ -74,7 +74,7 @@
 				)
 				(comment
 					(number "3")
-					(value "git hash: cfda140")
+					(value "git hash: 95a273a")
 				)
 				(comment
 					(number "4")
@@ -122,7 +122,7 @@
 				)
 				(comment
 					(number "3")
-					(value "git hash: cfda140")
+					(value "git hash: 95a273a")
 				)
 				(comment
 					(number "4")
