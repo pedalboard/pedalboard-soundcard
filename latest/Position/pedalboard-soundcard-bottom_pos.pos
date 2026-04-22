@@ -1,8 +1,8 @@
-### Module positions - created on Tue 21 Apr 2026 20:42:34  ###
+### Module positions - created on Wed 22 Apr 2026 16:08:35  ###
 ### Printed by KiBot
 ## Unit = mm, Angle = deg.
 ## Side : bottom
-# Ref    Val                   Package                                             PosX      PosY      Rot        Side  
-J2       Conn_02x03_Odd_Even   PinSocket_2x03_P2.54mm_Vertical                     59.1500   19.1000   180.0000   bottom
-J3       Conn_02x03_Odd_Even   PinSocket_2x03_P2.54mm_Vertical                     14.8400   14.9200   -90.0000   bottom
+# Ref    Val                        Package                                             PosX      PosY      Rot        Side  
+J2       Conn_02x03_Odd_Even        PinSocket_2x03_P2.54mm_Vertical                     59.1500   19.1000   180.0000   bottom
+J3       Conn_02x03_Odd_Even        PinSocket_2x03_P2.54mm_Vertical                     14.8400   14.9200   -90.0000   bottom
 ## End
