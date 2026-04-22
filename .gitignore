@@ -64,3 +64,6 @@ generated
 
 .kiro
 mise.local.toml
+.history/
+site/.hugo_build.lock
+site/static/
