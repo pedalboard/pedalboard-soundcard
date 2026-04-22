@@ -4,7 +4,7 @@ I²S audio codec HAT for Raspberry Pi — ADC + DAC for the [Open Pedalboard](ht
 
 **[Documentation →](https://pedalboard.github.io/pedalboard-soundcard/latest/)**
 
-![Top View](https://pedalboard.github.io/pedalboard-soundcard/latest/3D/pedalboard-soundcard-3D_blender_top.png)
+![Top View](https://pedalboard.github.io/pedalboard-soundcard/latest/3D/pedalboard-soundcard-3D_blender_1_top.png)
 
 ## Features
 

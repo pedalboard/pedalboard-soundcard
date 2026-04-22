@@ -3,7 +3,7 @@ title: Overview
 weight: 10
 ---
 
-![PCB 3D Render](3D/pedalboard-soundcard-3D_blender_top.png)
+![PCB 3D Render](3D/pedalboard-soundcard-3D_blender_1_top.png)
 
 I²S audio codec HAT for Raspberry Pi, designed for real-time guitar effects
 processing in the [Open Pedalboard](https://github.com/pedalboard) system.
