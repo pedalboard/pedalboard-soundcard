@@ -2,10 +2,10 @@
 	(version "E")
 	(design
 		(source "/__w/pedalboard-soundcard/pedalboard-soundcard/pedalboard-soundcard.kicad_sch")
-		(date "2026-04-22T21:51:20")
+		(date "2026-04-23T06:47:35")
 		(tool "Eeschema 10.0.1-10.0.1~ubuntu25.10.1")
 		(textvar
-			(name "GIT_HASH") "43ae5f7")
+			(name "GIT_HASH") "0fbefd4")
 		(textvar
 			(name "REVISION") "dev")
 		(sheet
@@ -28,7 +28,7 @@
 				)
 				(comment
 					(number "3")
-					(value "git hash: 43ae5f7")
+					(value "git hash: 0fbefd4")
 				)
 				(comment
 					(number "4")
@@ -76,7 +76,7 @@
 				)
 				(comment
 					(number "3")
-					(value "git hash: 43ae5f7")
+					(value "git hash: 0fbefd4")
 				)
 				(comment
 					(number "4")
@@ -124,7 +124,7 @@
 				)
 				(comment
 					(number "3")
-					(value "git hash: 43ae5f7")
+					(value "git hash: 0fbefd4")
 				)
 				(comment
 					(number "4")
