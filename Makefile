@@ -1,5 +1,5 @@
 .DEFAULT_GOAL := help
-.PHONY: bom test step pdf pos clean
+.PHONY: bom test step pdf pos pnp feeders feeder-map clean
 
 GIT_HASH = $(shell git rev-parse --short HEAD)
 PROJECT_NAME = pedalboard-soundcard
@@ -66,6 +66,18 @@ pos: ## export Position file
 		--units mm \
 		--smd-only \
 		$(PROJECT_NAME).kicad_pcb
+
+pnp: ## Generate OpenPnP board XML + ensure parts
+	kicad-cli pcb export pos --format csv --side both --units mm \
+		--smd-only --exclude-dnp $(PROJECT_NAME).kicad_pcb
+	openpnp-tools generate -o pnp -n $(PROJECT_NAME) $(PROJECT_NAME).csv
+	openpnp-tools ensure-parts pnp/$(PROJECT_NAME).board.xml
+
+feeders: ## Assign parts to feeder slots
+	openpnp-tools assign pnp/feeders.csv
+
+feeder-map: ## Generate interactive feeder map
+	openpnp-tools map -o pnp/feeder-map.html pnp/$(PROJECT_NAME).job.xml
 
 clean:
 	rm -rf out
