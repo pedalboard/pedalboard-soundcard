@@ -66,4 +66,4 @@ generated
 mise.local.toml
 .history/
 site/.hugo_build.lock
-site/static/
+site/static/site/_vendor/
