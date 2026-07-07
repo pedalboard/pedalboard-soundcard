@@ -1,6 +1,10 @@
 // Pedalboard Soundcard Device Tree Overlay
 // PCM1863 ADC + PCM5242 DAC on I2S/I2C
-// Based on hifiberry-dacplusadcpro-overlay.dts (same chip family)
+//
+// Uses the existing hifiberry-dacplusadcpro kernel driver (same chip family,
+// same I2S topology). The compatible string must match the kernel driver's
+// of_match_table — this is standard practice for compatible hardware.
+// The EEPROM product name identifies the board as "pedalboard-soundcard".
 /dts-v1/;
 /plugin/;
 
