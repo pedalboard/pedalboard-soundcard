@@ -1,0 +1,68 @@
+// Pedalboard Soundcard Device Tree Overlay
+// PCM1863 ADC + PCM5242 DAC on I2S/I2C
+// Based on hifiberry-dacplusadcpro-overlay.dts (same chip family)
+/dts-v1/;
+/plugin/;
+
+/ {
+	compatible = "brcm,bcm2835";
+
+	fragment@0 {
+		target-path = "/";
+		__overlay__ {
+			pedalboard_osc: pedalboard_osc {
+				compatible = "hifiberry,dacpro-clk";
+				#clock-cells = <0>;
+			};
+		};
+	};
+
+	frag1: fragment@1 {
+		target = <&i2s_clk_consumer>;
+		__overlay__ {
+			status = "okay";
+		};
+	};
+
+	fragment@2 {
+		target = <&i2c1>;
+		__overlay__ {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			status = "okay";
+
+			pb_dac: pcm5242@4d {
+				#sound-dai-cells = <0>;
+				compatible = "ti,pcm5122";
+				reg = <0x4d>;
+				clocks = <&pedalboard_osc>;
+				status = "okay";
+			};
+			pb_adc: pcm1863@4a {
+				#sound-dai-cells = <0>;
+				compatible = "ti,pcm1863";
+				reg = <0x4a>;
+				clocks = <&pedalboard_osc>;
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@3 {
+		target = <&sound>;
+		pedalboard_soundcard: __overlay__ {
+			compatible = "hifiberry,hifiberry-dacplusadcpro";
+			audio-codec = <&pb_dac &pb_adc>;
+			i2s-controller = <&i2s_clk_consumer>;
+			status = "okay";
+		};
+	};
+
+	__overrides__ {
+		24db_digital_gain =
+			<&pedalboard_soundcard>,"hifiberry-dacplusadcpro,24db_digital_gain?";
+		slave = <&pedalboard_soundcard>,"hifiberry-dacplusadcpro,slave?",
+			<&frag1>,"target:0=",<&i2s_clk_producer>,
+			<&pedalboard_soundcard>,"i2s-controller:0=",<&i2s_clk_producer>;
+	};
+};

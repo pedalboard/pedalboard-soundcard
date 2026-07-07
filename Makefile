@@ -1,5 +1,5 @@
 .DEFAULT_GOAL := help
-.PHONY: bom test step pdf pos pnp feeders feeder-map clean
+.PHONY: bom test step pdf pos pnp feeders feeder-map clean overlay eeprom flash-eeprom
 
 GIT_HASH = $(shell git rev-parse --short HEAD)
 PROJECT_NAME = pedalboard-soundcard
@@ -88,3 +88,13 @@ panel: ## panelize the project
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+overlay: ## Compile the device tree overlay
+	dtc -@ -I dts -O dtb -o eeprom/pedalboard-soundcard.dtbo pedalboard-soundcard-overlay.dts
+
+eeprom: overlay ## Build EEPROM image (settings + overlay)
+	cd eeprom && eepmake settings.txt pedalboard-soundcard.eep pedalboard-soundcard.dtbo
+
+flash-eeprom: eeprom ## Flash EEPROM image to the HAT (requires I2C access to the HAT EEPROM)
+	cd eeprom && sudo eepflash.sh -w -f=pedalboard-soundcard.eep -t=24c32
+
